@@ -21,9 +21,9 @@ Are you tired of crafting custom cover letters for every job application? Our Au
 Since this extension is currently in developer mode and not available on the Chrome Web Store, you can follow these steps to install and use it:
 
 1. Clone this repository to your local machine:
-
+   ```sh
    git clone https://github.com/ElieLowenstein/Cover_letter_generator.git
-
+   ```
 3. Open your Chrome browser and navigate to `chrome://extensions/`.
 
 4. Enable "Developer mode" using the toggle switch located at the top-right corner of the page.
