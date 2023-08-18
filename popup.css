@@ -1,0 +1,77 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+#title {
+    color: navy;
+    font-size: 16px;
+    text-align: center;
+    font-weight:900;
+}
+
+#box , #boxx{ 
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: gray;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+button {
+    background-color:#4c7989;
+    display: inline-block;
+    padding: .5em .5em;
+    margin-top: 2em;
+    margin-left: 6em;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+    background-color:#4c7989;
+    transform: scale(1.1);
+}
+
+button:active{
+    background-color: gray;
+}
+
+#close {
+    float:right;
+    padding:2px 5px;
+    background:#ccc;
+    cursor:default;
+}
+
+#close:hover {
+    float:right;
+    padding:2px 5px;
+    background:#ccc;
+    color:#fff;
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+#submit-file{
+    margin-top:30px;
+}
+
+#submit{
+    text-align: center;
+}
