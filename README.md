@@ -11,9 +11,6 @@ Welcome to the Automated Cover Letter Generator Web Extension! This extension is
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [API Keys](#api-keys)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -21,8 +18,24 @@ Are you tired of crafting custom cover letters for every job application? Our Au
 
 ## Installation
 
-1. Download and install the extension from the Chrome Web Store.
-2. Once installed, the extension icon will appear in your browser toolbar.
+Since this extension is currently in developer mode and not available on the Chrome Web Store, you can follow these steps to install and use it:
+
+1. Clone this repository to your local machine:
+
+   git clone https://github.com/ElieLowenstein/Cover_letter_generator.git
+
+3. Open your Chrome browser and navigate to `chrome://extensions/`.
+
+4. Enable "Developer mode" using the toggle switch located at the top-right corner of the page.
+
+5. Click the "Load unpacked" button and select the directory where you cloned this repository.
+
+6. The extension will now be installed and its icon will appear in your browser toolbar.
+
+7. When you want to use the extension, click on its icon to access the interface.
+
+Please note that developer mode extensions are intended for testing and development purposes. 
+
 
 ## Usage
 
@@ -45,21 +58,5 @@ This extension utilizes the following APIs:
 - [RapidAPI for Reading Resumes](https://rapidapi.com/docwire-docwire-default/api/docwire-doctotext) to extract text from attached resumes.
 
 To use this extension effectively, you need to obtain API keys for the above services. Follow the documentation of each API provider to acquire the necessary keys.
-
-## Contributing
-
-We welcome contributions from the community! If you'd like to contribute to the development of this extension, please follow our [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions, suggestions, or feedback, feel free to reach out to us:
-
-- Elie Lowenstein: [email@example.com](mailto:email@example.com)
-- Harsh Gandhi: [email@example.com](mailto:email@example.com)
-- Kidus Tilahun: [email@example.com](mailto:email@example.com)
 
 We hope this extension makes your job application process smoother and more successful. Happy job hunting!
